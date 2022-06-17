@@ -13,7 +13,6 @@ function List(props) {
     const  CheckBoxHandleClick = (i) => {
         
         var todos = props.todos;
-        //done property' i tersine çevirdik
         todos[i].done = !todos[i].done;
         
         props.setTodos([...todos])

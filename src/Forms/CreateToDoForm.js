@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-const InitialFormValues = {text: "",done: false}
+const InitialFormValues = {text: "", done: false}
 
 function CreateToDoForm(props) {
 
